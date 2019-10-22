@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InvoiceX"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <StackPanel>
-        
-    </StackPanel>
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Frame x:Name="Main" Margin="0,35,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    </Grid>
 </Window>

@@ -13,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace InvoiceX
+namespace InvoiceX.pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for StartUp.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StartUp : Page
     {
-        public MainWindow()
+        public StartUp()
         {
             InitializeComponent();
-            Main.Content = new pages.StartUp();
         }
     }
 }
