@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace InvoiceX.pages
 {
     /// <summary>
-    /// Interaction logic for StartUp.xaml
+    /// Interaction logic for InvoiceEditor.xaml
     /// </summary>
-    public partial class StartUp : Page
+    public partial class InvoiceEditor : Page
     {
-        public StartUp()
+        public InvoiceEditor()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            InvoiceEditor invoiceEditor = new InvoiceEditor();
-            NavigationService.Navigate(invoiceEditor);
         }
     }
 }

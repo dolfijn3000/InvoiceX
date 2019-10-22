@@ -61,7 +61,7 @@
                         <Image Source="{StaticResource open}" Style="{StaticResource ResourceKey=Image}" />
                     </StackPanel>
                 </Button>
-                <Button Style="{StaticResource ResourceKey=Button}">
+                <Button Click="Button_Click" Style="{StaticResource ResourceKey=Button}">
                     <StackPanel>
                         <Image Source="{StaticResource new}" Style="{StaticResource ResourceKey=Image}" />
                     </StackPanel>
